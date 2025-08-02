@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Evently_Onboarding" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Evently_Onboarding" parent="Base.Theme.Evently_Onboarding" />
+
+    <style name="LogoTextStyle" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:text">@string/app_name</item>
+        <item name="fontFamily">@font/jockey_one_regular</item>
+        <item name="android:textColor">@color/light_primary</item>
+        <item name="android:letterSpacing">-.03</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="OnboardingTitleTextStyle" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/light_primary</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="OnboardingDescriptionTextStyle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="ArrowButtonStyle" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+</resources>
