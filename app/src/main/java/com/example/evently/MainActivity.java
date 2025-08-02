@@ -52,6 +52,17 @@ public class MainActivity extends AppCompatActivity {
         updateNavigationUI(0);
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        onboardingViewPager.unregisterOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                updateNavigationUI(position);
+            }
+        });
+    }
+
     private void updateNavigationUI(int position) {
         previousArrow.setVisibility(position == 0 ? View.INVISIBLE : View.VISIBLE);
         nextArrow.setVisibility(position == onboardingFragments.size() - 1 ? View.INVISIBLE : View.VISIBLE);

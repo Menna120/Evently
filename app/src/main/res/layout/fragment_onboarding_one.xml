@@ -14,7 +14,7 @@
         <ImageView
             android:id="@+id/onboarding_1_image_view"
             android:layout_width="0dp"
-            android:layout_height="360dp"
+            android:layout_height="350dp"
             android:adjustViewBounds="true"
             android:importantForAccessibility="no"
             android:padding="8dp"
