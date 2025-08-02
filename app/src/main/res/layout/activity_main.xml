@@ -3,21 +3,54 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:paddingVertical="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/evently_logo_image_view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/evently_logo"
+        app:layout_constraintEnd_toStartOf="@id/evently_logo_text_view"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:tint="@color/light_primary" />
+
+    <TextView
+        android:id="@+id/evently_logo_text_view"
+        style="@style/LogoTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chainUseRtl="true"
+        app:layout_constraintBottom_toBottomOf="@+id/evently_logo_image_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/evently_logo_image_view"
+        app:layout_constraintTop_toTopOf="@+id/evently_logo_image_view" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="evently_logo_image_view,evently_logo_text_view" />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/onboarding_view_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@id/barrier"
+        app:layout_constraintBottom_toTopOf="@id/barrier_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/barrier_top" />
 
     <androidx.constraintlayout.widget.Barrier
-        android:id="@+id/barrier"
+        android:id="@+id/barrier_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:barrierDirection="top"
@@ -28,7 +61,7 @@
         style="@style/ArrowButtonStyle"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_margin="16dp"
+        android:layout_marginHorizontal="16dp"
         android:importantForAccessibility="no"
         android:src="@drawable/previous_arrow"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,7 +109,7 @@
         style="@style/ArrowButtonStyle"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_margin="16dp"
+        android:layout_marginHorizontal="16dp"
         android:importantForAccessibility="no"
         android:src="@drawable/next_arrow"
         app:layout_constraintBottom_toBottomOf="parent"
