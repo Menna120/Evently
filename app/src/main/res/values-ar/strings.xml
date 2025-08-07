@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">إيفنتلي</string>
+    <string name="onboarding_title_1">ابحث عن فعاليات تلهمك</string>
+    <string name="onboarding_description_1">انغمس في عالم من الفعاليات المصممة لتناسب اهتماماتك الفريدة. سواء كنت من محبي الموسيقى الحية، أو ورش العمل الفنية، أو التواصل المهني، أو ببساطة اكتشاف تجارب جديدة، لدينا ما يناسب الجميع. ستساعدك توصياتنا المنسقة على الاستكشاف والتواصل والاستفادة القصوى من كل فرصة حولك.</string>
+    <string name="onboarding_title_2">تخطيط فعاليات بدون مجهود</string>
+    <string name="onboarding_description_2">تخلص من متاعب تنظيم الفعاليات باستخدام أدوات التخطيط الشاملة لدينا. بدءًا من إعداد الدعوات وإدارة الردود وجدولة التذكيرات وتنسيق التفاصيل، كل ما تحتاجه متوفر لدينا. خطط بسهولة وركز على ما يهم - خلق تجربة لا تُنسى لك ولضيوفك.</string>
+    <string name="onboarding_title_3">تواصل مع الأصدقاء وشارك اللحظات</string>
+    <string name="onboarding_description_3">اجعل كل فعالية لا تُنسى من خلال مشاركة التجربة مع الآخرين. تتيح لك منصتنا دعوة الأصدقاء وإبقاء الجميع على اطلاع دائم والاحتفال باللحظات معًا. التقط الإثارة وشاركها مع شبكتك، حتى تتمكن من استعادة أبرز اللحظات والاعتزاز بالذكريات.</string>
+    <string name="onboarding_start_description">اختر المظهر واللغة المفضلين لديك لتبدأ تجربة مريحة ومخصصة تناسب أسلوبك.</string>
+    <string name="onboarding_start_title">إضفاء الطابع الشخصي على تجربتك</string>
+    <string name="language">اللغة</string>
+    <string name="theme">المظهر</string>
+    <string name="let_s_start">لنبدأ</string>
+    <string name="us_english">الإنجليزية (الولايات المتحدة)</string>
+    <string name="egyptian_arabic">العربية (مصر)</string>
+</resources>

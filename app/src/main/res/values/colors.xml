@@ -3,7 +3,8 @@
     <color name="black">#1C1C1C</color>
     <color name="transparent">#00000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="background">#F2FEFF</color>
-    <color name="light_primary">#5669FF</color>
-
+    <color name="off_white">#F2FEFF</color>
+    <color name="light_blue">#5669FF</color>
+    <color name="light_gray">#F4EBDC</color>
+    <color name="dark_blue">#101127</color>
 </resources>

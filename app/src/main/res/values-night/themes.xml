@@ -1,7 +1,21 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Evently_Onboarding" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Dark theme customizations -->
+        <item name="android:windowBackground">@color/dark_blue</item>
+        <item name="android:statusBarColor">@color/dark_blue</item>
+        <item name="android:navigationBarColor">@color/dark_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/light_blue</item>
+
     </style>
+
+    <style name="OnboardingDescriptionTextStyle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+
+    <style name="OnboardingCircleState">
+        <item name="background">@color/light_gray</item>
+    </style>
+
 </resources>

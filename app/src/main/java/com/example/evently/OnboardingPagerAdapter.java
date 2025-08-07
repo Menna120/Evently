@@ -7,10 +7,10 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import java.util.ArrayList;
 
-public class OnboardingViewPagerAdapter extends FragmentStateAdapter {
+public class OnboardingPagerAdapter extends FragmentStateAdapter {
     ArrayList<Fragment> fragments;
 
-    public OnboardingViewPagerAdapter(@NonNull FragmentActivity fragmentActivity, ArrayList<Fragment> fragments) {
+    public OnboardingPagerAdapter(@NonNull FragmentActivity fragmentActivity, ArrayList<Fragment> fragments) {
         super(fragmentActivity);
         this.fragments = fragments;
     }

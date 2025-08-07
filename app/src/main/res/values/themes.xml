@@ -1,11 +1,12 @@
 <resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Evently_Onboarding" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:statusBarColor">@color/off_white</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarColor">@color/background</item>
-        <item name="android:windowBackground">@color/background</item>
-        <item name="colorPrimary">@color/light_primary</item>
+        <item name="android:navigationBarColor">@color/off_white</item>
+        <item name="android:windowBackground">@color/off_white</item>
+        <item name="colorPrimary">@color/light_blue</item>
+
     </style>
 
     <style name="Theme.Evently_Onboarding" parent="Base.Theme.Evently_Onboarding" />
@@ -13,7 +14,7 @@
     <style name="LogoTextStyle" parent="TextAppearance.Material3.DisplaySmall">
         <item name="android:text">@string/app_name</item>
         <item name="fontFamily">@font/jockey_one_regular</item>
-        <item name="android:textColor">@color/light_primary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
         <item name="android:letterSpacing">-.03</item>
         <item name="android:textSize">36sp</item>
         <item name="android:textAlignment">center</item>
@@ -22,7 +23,7 @@
     <style name="OnboardingTitleTextStyle" parent="TextAppearance.Material3.HeadlineSmall">
         <item name="fontFamily">@font/inter_bold</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/light_primary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
         <item name="android:textAlignment">viewStart</item>
     </style>
 
